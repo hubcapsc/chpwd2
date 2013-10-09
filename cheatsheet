@@ -1,0 +1,25 @@
+
+I created an empty repository named chpwd at github by mashing the
+"create a repository" button...
+
+Then I cloned the empty project to my local host with:
+
+  git clone git://github.com/hubcapsc/chpwd.git d.chpwd
+
+Next I copied some files into my local repository and 
+commited them to the local repository with:
+
+  git add README
+  git add chpwd.c
+  git add .gitignore
+
+I probably should have said "https:" instead of "git:" when I did
+the clone... anyhow, I had trouble pushing my local repo (master) 
+back to the github repo (origin)... so I did this:
+
+  git remote set-url origin https://hubcapsc@github.com/hubcapsc/chpwd.git
+
+Then I was able to push my files up to github...
+
+  git push origin master
+
