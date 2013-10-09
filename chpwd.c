@@ -50,6 +50,5 @@ static int tester_conv(int num_msg, struct pam_message **msg,
   if (*response == NULL) return (PAM_BUF_ERR);
   (*response)->resp = strdup(pass);
   (*response)->resp_retcode = 0;
- /* printf("i got here, num_msg:%d:, pass:%s:\n",num_msg,pass); */
   return (PAM_SUCCESS);
 }
