@@ -13,8 +13,10 @@ commited them to the local repository with:
   git add chpwd.c
   git add .gitignore
 
+  git commit
+
 I probably should have said "https:" instead of "git:" when I did
-the clone... anyhow, I had trouble pushing my local repo (master) 
+the clone... anyhow, I had trouble pushing my local changes (master) 
 back to the github repo (origin)... so I did this:
 
   git remote set-url origin https://hubcapsc@github.com/hubcapsc/chpwd.git
